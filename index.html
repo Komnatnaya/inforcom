@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" />
+	<link rel="stylesheet" type="text/css" href="template/css/foundation.min.css" />
+	<link rel="stylesheet" href="template/css/ico_font.css" />
+	<link rel="stylesheet" href="template/css/style.css" />
+	<title>News page</title>
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header_top">
+			<div class="header_top_wraper">
+				<div class="large-12 column">
+					<nav class="header_left">
+						<a href="#" class="header_logo"></a>
+						<ul class="show-for-large menu header_menu">
+							<li class="header_menu__i"><a class="header_menu__i__a" href="#" id="header_menu-1"><span class="header_menu__i__a__s">Компания</span></a></li>
+							<li class="header_menu__i active"><a class="header_menu__i__a" href="#" id="header_menu-2"><span class="header_menu__i__a__s">Услуги и&nbsp;решения</span></a></li>
+							<li class="header_menu__i"><a class="header_menu__i__a" href="#" id="header_menu-3"><span class="header_menu__i__a__s">Проекты</span></a></li>
+							<li class="header_menu__i"><a class="header_menu__i__a" href="#" id="header_menu-4"><span class="header_menu__i__a__s">Контакты</span></a></li>
+						</ul>
+					</nav>
+					<div class="header_right">
+						<span class="show-for-large header_right_phone">+7 (423) 260-04-00</span>
+						<button class="show-for-extralarge button header_right_callme">Позвоните мне</button>
+						<div class="hide-for-large header_menu_mobile">
+
+							<!--						/** mobile menu **/						-->
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row"></div>
+		<!-- <div class="header_sub" id="header_submenu-1">
+			<div class="row">
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i">
+							<a href="#" class="header_submenu_i_a">О Компании</a>
+							<span class="header_submenu_i_text">Компания &laquo;Инфорком&raquo; специализируется на&nbsp;сервисном обслуживании широкого спектра информационно-технических систем и&nbsp;технической поддержке.</span>
+						</li>
+						<li class="header_submenu_i">
+							<a href="#" class="header_submenu_i_a">Наши партнеры</a>
+						</li>
+						<li class="header_submenu_i">
+							<a href="#" class="header_submenu_i_a">Лицензии и сертификаты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Команда</a>
+							<ul class="header_submenu_i_hex_photo">
+								<li class="img-hexagon">
+									<span class="img-hexagon-part">
+										<span class="img-hexagon-part img-hexagon-part_content">
+											<img src="/images/team/1.jpg">
+										</span>
+									</span>
+								</li>
+								<li class="img-hexagon">
+									<span class="img-hexagon-part">
+										<span class="img-hexagon-part img-hexagon-part_content">
+											<img src="/images/team/2.jpg">
+										</span>
+									</span>
+								</li>
+								<li class="img-hexagon">
+									<span class="img-hexagon-part">
+										<span class="img-hexagon-part img-hexagon-part_content">
+											<img src="/images/team/3.jpg">
+										</span>
+									</span>
+								</li>
+								<li class="img-hexagon">
+									<span class="img-hexagon-part">
+										<span class="img-hexagon-part img-hexagon-part_content">
+											<img src="/images/team/4.jpg">
+										</span>
+									</span>
+								</li>
+								<li class="img-hexagon">
+									<span class="img-hexagon-part">
+										<span class="img-hexagon-part img-hexagon-part_content">
+											<img src="/template/i/more.svg">
+										</span>
+									</span>
+								</li>
+							</ul>
+						</li>
+						<li class="header_submenu_i">
+							<a href="#" class="header_submenu_i_a">Вакансии</a>
+							<span class="header_submenu_i_text">У нас есть <strong>6&nbsp;вакансий</strong>.</span>
+						</li>
+					</ul>
+				</div>
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i">
+							<a href="#" class="header_submenu_i_a">Пресс-центр</a>
+							<span class="header_submenu_i_date">28.02.2017</span>
+							<span class="header_submenu_i_text"><a href="#">Руководители &laquo;ИНФОРКОМ&raquo; приняли участие в&nbsp;инвестиционной сессии &laquo;Деловой <nobr>Восток-2</nobr>&raquo;</a></span>
+						</li>
+						<li class="header_submenu_i">
+							<ul class="header_submenu_i_socials social">
+								<li class="header_submenu_i_socials_i">
+									<a href="#" class="header_submenu_i_socials_i_icon icon-instagram"></a>
+								</li>
+								<li class="header_submenu_i_socials_i">
+									<a href="#" class="header_submenu_i_socials_i_icon icon-facebook"></a>
+								</li>
+								<li class="header_submenu_i_socials_i">
+									<a href="#" class="header_submenu_i_socials_i_icon icon-twitter"></a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_sub" id="header_submenu-2">
+			<div class="row">
+				<div class="large-4 column">
+					<a class="header_submenu_banner" href="#">
+						<img class="header_submenu_banner_img" src="images/banner/server.png" alt="Серверные решения">
+					</a>
+				</div>
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Центры обработки данных</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Видеонаблюдение</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Светодиодное освещение</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Проектирование информационных систем</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Структурированные кабельные системы</a></li>
+					</ul>
+				</div>
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Телекоммуникации и мультимедиа</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Бесперебойное энергоснабжение</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Системы связи</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Комплексные проекты</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Сервисное обслуживание</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_sub" id="header_submenu-3">
+			<div class="row">
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Наши клиенты</a></li>
+					</ul>
+					<a class="header_submenu_banner" href="#">
+						<img class="header_submenu_banner_img" src="images/banner/MTS_logo_color_ru.png" alt="МТС">
+					</a>
+				</div>
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Государственные структуры</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Промышленность, строительство</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Телекоммуникации и связь</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Образование, культура, наука, СМИ</a></li>
+					</ul>
+				</div>
+				<div class="large-4 column">
+					<ul class="header_submenu">
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Финансы, страхование, банки</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Торговля и сфера услуг</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Энергетика</a></li>
+						<li class="header_submenu_i"><a href="#" class="header_submenu_i_a">Прочее</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header_sub" id="header_submenu-4">
+			<div class="row">
+				<div class="large-3 column">
+					<p class="header_sub_p">Офис во Владивостоке</p>
+					<ul class="header_submenu">
+						<li class="header_submenu_i"><span class="header_submenu_i_text"><span class="header_submenu_i_text_icon icon-location"></span>ул. Комсомольская, 1</span></li>
+						<li class="header_submenu_i">
+							<span class="header_submenu_i_text">
+								<span class="header_submenu_i_text_icon icon-clock"></span>9:00&nbsp;&ndash;&nbsp;18:00
+								<span class="span-workdays">
+									<span class="span-workdays_day"></span>
+									<span class="span-workdays_day"></span>
+									<span class="span-workdays_day"></span>
+									<span class="span-workdays_day"></span>
+									<span class="span-workdays_day"></span>
+									<span class="span-workdays_day_red"></span>
+									<span class="span-workdays_day_red"></span>
+								</span>
+							</span>
+						</li>
+						<li class="header_submenu_i"><span class="header_submenu_i_text"><span class="header_submenu_i_text_icon icon-phone"></span>+7&nbsp;(423)&nbsp;260&ndash;04&ndash;00</span></li>
+						<li class="header_submenu_i"><span class="header_submenu_i_text"><span class="header_submenu_i_text_icon icon-envelop"></span><a href="mailto:info@in4com.ru">info@in4com.ru</a></span></li>
+						<li class="header_submenu_i"><span class="header_submenu_i_text"><a href="#">Подробная контактная информация</a></span></li>
+					</ul>
+				</div>
+				<div class="large-3 column">
+					<ul class="header_submenu">
+						<form action="#">
+							<button class="button buttons_cosmetic">Позвоните мне</button>
+							<button class="button buttons_cosmetic">Обратная связь</button>
+						</form>
+					</ul>
+				</div>
+				<div class="large-6 column">
+					<div class="	header_submenu_map">
+						<a href="https://yandex.ru/maps/?um=constructor%3A097f5cb0ce16901ed250147c6692d4423e20aa57aab2d7e548abcbbf392c667c&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A097f5cb0ce16901ed250147c6692d4423e20aa57aab2d7e548abcbbf392c667c&amp;width=600&amp;height=240&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</header>
+	<!-- Хлебные крошки  -->
+	<div class="row">
+		<div class="small-12 middle-12 large-12 columns">
+			<div class="breadcrumbs__wrapper " itemprop="breadcrumb">
+				<ul class="menu B_crumbBox">
+					<li class="B_firstCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"> 	<a class="B_homeCrumb" itemprop="url" rel="Home" href="http://inli.ru/">
+							<span itemprop="title">ИНФОРКОМ</span>
+						</a>
+					</li>
+					<span class="separator"></span>
+					<li class="B_firstCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"> 	<a class="B_homeCrumb" itemprop="url" rel="Home" href="http://inli.ru/">
+							<span itemprop="title">Компания</span>
+						</a>
+					</li>
+					<span class="separator"></span>
+					<li itemscope="itemscope" class="B_crumb" itemtype="http://data-vocabulary.org/Breadcrumb">
+						<a class="B_crumb" itemprop="url" rel="answer" href="solutions/">
+							<span itemprop="title">Новости и события</span>
+						</a>
+					</li>
+					<span class="separator"></span>
+					<li class="B_lastCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb"> </li>
+					<li itemscope="itemscope" class="B_currentCrumb" itemtype="http://data-vocabulary.org/Breadcrumb">РУКОВОДИТЕЛИ «ИНФОРКОМ» ПРИНЯЛИ УЧАСТИЕ В ИНВЕСТИЦИОННОЙ СЕССИИ «ДЕЛОВОЙ ВОСТОК-2» </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- конец -->
+
+	<div class="main">
+		<div class="row">
+			<div class="large-9 columns">
+				<div class="large-12 columns">
+					<div class="header_artical">
+						<div class="row">
+							<div class="large-10">
+								<h1>РУКОВОДИТЕЛИ «ИНФОРКОМ» ПРИНЯЛИ УЧАСТИЕ В ИНВЕСТИЦИОННОЙ СЕССИИ «ДЕЛОВОЙ ВОСТОК-2»</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="hide-for-small-only small-2 medium-2 large-2 columns">
+					<div class="date_news">
+						<div class="news_date_hexagon">
+							<span class="hexagon_day">12</span>
+						</div>
+						<p class="hexagon_month">Февраля</p>
+					</div>
+				</div>
+				<div class="small-112 medium-10 large-10 columns">
+					<div class="content">
+						<div class="large-10">
+							<h2>Мероприятие, организованное Фондом развития Дальнего Востока, состоялось 28 декабря 2017 года во Владивостоке.</h2>
+						</div>
+						<p>Фронт снижает гистерезис ОГХ. Как мы&nbsp;уже знаем, потенциал почвенной влаги пространственно растягивает легкосуглинистый копролит. Переуплотнение возникает карбонат кальция. Почвенная толща представляет собой минерал. Кристаллическая решетка минералов отражает генетический гистерезис ОГХ. Пластичность, как следствие уникальности почвообразования в&nbsp;данных условиях, вызывает ортштейн, однозначно свидетельствуя о&nbsp;неустойчивости процесса в&nbsp;целом.</p>
+						<p>Можно думать, что латерит восстанавливает генетический денситомер. Являясь следствием законов широтной зональности и&nbsp;вертикальной поясности, липкость увлажняет солеперенос в&nbsp;полном соответствии с&nbsp;законом Дарси. Пескование, на&nbsp;первый взгляд, активно.</p>
+						<p>Очевидно, что бюкс переносит пирогенный гранулометрический анализ. Окисление отталкивает псевдомицелий. Усадка растворяет кислый прибор Качинского.</p>
+						<p>Эрозия растягивает дренаж. Прибор Качинского восстанавливает полидисперсный песок. Уровень грунтовых вод, в&nbsp;случае использования
+							<nobr>адаптивно-ландшафтных</nobr> систем земледелия, адсорбирует массоперенос. Горизонт продуцирует супесчаный влагомер.</p>
+						<p>Пластичность, как следует из&nbsp;полевых и&nbsp;лабораторных наблюдений, обеднена. Пипетка Качинского, несмотря на&nbsp;внешние воздействия, относительно окисляет фрактал только в&nbsp;отсутствие тепло- и&nbsp;массообмена с&nbsp;окружающей средой. Как мы&nbsp;уже знаем, ортштейн поглощает турбулентный суглинок. Окисление последовательно эволюционирует в&nbsp;профиль, и&nbsp;этот процесс может повторяться многократно. Прибор Качинского, в&nbsp;сочетании с&nbsp;традиционными агротехническими приемами, теоретически возможен.</p>
+						<p>Бур, согласно традиционным представлениям, интуитивно понятен. Журавчик, в&nbsp;сочетании с&nbsp;традиционными агротехническими приемами, неизменяем.</p>
+						<p>Очевидно, что бюкс переносит пирогенный гранулометрический анализ. Окисление отталкивает псевдомицелий. Усадка растворяет кислый прибор Качинского.</p>
+						<p>Эрозия растягивает дренаж. Прибор Качинского восстанавливает полидисперсный песок. Уровень грунтовых вод, в&nbsp;случае использования
+							<nobr>адаптивно-ландшафтных</nobr> систем земледелия, адсорбирует массоперенос. Горизонт продуцирует супесчаный влагомер.</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="large-3 columns">
+				<aside class="show-for-large">
+					<div class="aside_year">
+						<ul class="menu vertical">
+							<li class="menu-text none_padding"> <span class="title_aside">2017</span> </li>
+							<li> <span class="button buttons_cosmetic active">Последние новости </span> </li>
+							<li> <span class="button buttons_cosmetic">2016</span> </li>
+							<li> <span class="button buttons_cosmetic">2015 </span> </li>
+							<li> <span class="button buttons_cosmetic">2014 </span> </li>
+							<li> <span class="button buttons_cosmetic">2014 </span> </li>
+							<li> <span class="button buttons_cosmetic">2013 </span> </li>
+							<li> <span class="button buttons_cosmetic">2012 </span> </li>
+							<li> <span class="button buttons_cosmetic">2011 </span> </li>
+							<li> <span class="button buttons_cosmetic">2010 </span> </li>
+							<li> <span class="button buttons_cosmetic">2009 </span> </li>
+							<li> <span class="button buttons_cosmetic">2008 </span> </li>
+						</ul>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+
+
+		<footer class="hexfly" data-count="2">
+
+			<div class="row">
+
+				<!-- Обратная связь -->
+				<div class="small-12 medium-12 large-4 center-align columns">
+					<div class="feedback">
+						<p class="grey_number">+7&nbsp;(423)<span class="part_number_2">260-04-00</span></p>
+						<div class="buttons_contains">
+							<span class="footer_display-none-small">Закажите обратный звонок или напишите нам:</span>
+							<form action="#">
+								<button class="button buttons_cosmetic footer_bottom_position">Позвоните мне</button>
+								<button class="button buttons_cosmetic footer_bottom_position">Обратная связь</button>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<!-- Услуги и решения -->
+				<div class="show-for-medium medium-5 large-3 columns">
+					<h3 class="footer_menu_h">Услуги и решения</h3>
+					<ul class="menu vertical footer_menu">
+						<li> <a href="">ЦОДы</a> </li>
+						<li> <a href="">Видеонаблюдение и безопасность</a> </li>
+						<li> <a href="">Светодиодное освещение</a> </li>
+						<li> <a href="">Информационные системы</a> </li>
+						<li> <a href="">Структурированные кабельные системы</a> </li>
+						<li> <a href="">Телекоммуникации и мультимедиа</a> </li>
+						<li> <a href="">Безперебойное энергоснабжение</a> </li>
+						<li> <a href="">Системы связи</a> </li>
+						<li> <a href="">Комплексные проекты</a> </li>
+						<li> <a href="">Сервисное обслужиание</a> </li>
+					</ul>
+				</div>
+
+				<!-- Проекты -->
+				<div class="show-for-medium medium-4 large-3 columns">
+					<h3 class="footer_menu_h">Проекты</h3>
+					<ul class="menu vertical footer_menu">
+						<li> <a href="">Государственные структуры</a> </li>
+						<li> <a href="">Образование, наука, культура, СМИ</a> </li>
+						<li> <a href="">Промышленность, строительство</a> </li>
+						<li> <a href="">Финансы, страхование, банки</a> </li>
+						<li> <a href="">Телекоммуникации и связь</a> </li>
+						<li> <a href="">Торговля и сфера услуг</a> </li>
+						<li> <a href="">Энергетика</a> </li>
+					</ul>
+				</div>
+
+				<!-- Компания -->
+				<div class="show-for-medium medium-3 large-2 columns">
+					<h3 class="footer_menu_h">Компания</h3>
+					<ul class="menu vertical footer_menu">
+						<li> <a href="">О Нас</a> </li>
+						<li> <a href="">Команда</a> </li>
+						<li> <a href="">Вакансии</a> </li>
+						<li> <a href="">Пресс-центр</a> </li>
+						<li> <a href="">Партнеры</a> </li>
+						<li> <a href="">Лицензии</a> </li>
+					</ul>
+
+					<!-- Контакты -->
+					<h3 class="footer_menu_h">Контакты</h3>
+
+				</div>
+			</div>
+
+			<hr class="footer_line" />
+
+			<div class="row">
+
+				<!-- Компания владелец -->
+				<div class="small-12 large-4 columns">
+					<div class="footer_company">
+						<span class="icon-logo_inforcom"></span>
+						<p class="footer_span_company">&copy; ООО «Инфорком», 2008 &mdash; 2017</p>
+					</div>
+				</div>
+
+				<!-- Соц. сети -->
+				<div class="small-12 large-4 columns">
+					<div class="social">
+
+						<a href="#">
+							<span class="social_hexagon">
+								<span class="social_hexagon_icon icon-instagram"></span>
+							</span>
+						</a>
+
+						<a href="#">
+							<span class="social_hexagon">
+								<span class="social_hexagon_icon icon-facebook"></span>
+							</span>
+						</a>
+
+						<a href="#">
+							<span class="social_hexagon">
+								<span class="social_hexagon_icon icon-twitter"></span>
+							</span>
+						</a>
+
+					</div>
+				</div>
+
+				<!-- Компания создатель -->
+				<div class="show-for-large small-4 large-4 columns align-right">
+					<div class="websee">
+						<a href="http://websee.ru/" target="_blank">
+							<span class="icon-websee_logo"></span>
+							<p>Разработка сайта — WebSee</p>
+						</a>
+					</div>
+				</div>
+			</div>
+	</footer>
+
+	<script src="template/js/vendor/jquery.js"></script>
+	<script src="template/js/vendor/what-input.js"></script>
+	<script src="template/js/vendor/foundation.js"></script>
+	<script src="template/js/app.js"></script>
+	<script src="template/js/hexfly.js"></script>
+
+</body>
+
+</html>
