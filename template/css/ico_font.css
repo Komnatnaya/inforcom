@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?x3vy9h');
-  src:  url('../fonts/icomoon.eot?x3vy9h#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?x3vy9h') format('truetype'),
-    url('../fonts/icomoon.woff?x3vy9h') format('woff'),
-    url('../fonts/icomoon.svg?x3vy9h#icomoon') format('svg');
+  font-family: "icomoon";
+  src:  url("../fonts/icomoon.eot?x3vy9h");
+  src:  url("../fonts/icomoon.eot?x3vy9h#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?x3vy9h") format("truetype"),
+    url("../fonts/icomoon.woff?x3vy9h") format("woff"),
+    url("../fonts/icomoon.svg?x3vy9h#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,11 +24,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-instagram::before {
+	content: "\ea92";
+}
+
 .icon-facebook::before {
 	content: "\ea90";
 }
 
-.icon-facebook:before {
-  font-size: 32px;
-  content: "\ea90";
+.icon-twitter::before {
+	content: "\ea96";
+}
+
+.icon-logo_inforcom::before {
+  content: "\eae4";
+}
+
+.icon-websee_logo::before {
+  content: "\e902";
 }

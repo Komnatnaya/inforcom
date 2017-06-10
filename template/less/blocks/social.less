@@ -1,0 +1,48 @@
+.social {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.social_hexagon {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 22px;
+	margin-bottom: 1rem;
+	margin-left: 0.3rem;
+	margin-right: 0.3rem;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-align: center;
+	color: @color-light;
+	background: @color-date;
+
+	&:before {
+		content: "";
+		position: absolute;
+		top: -12px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-bottom: 12px solid @color-date;
+	}
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: -12px;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-top: 12px solid @color-date;
+	}
+}
+
+.social_hexagon_icon {
+	position: relative;
+	top: -2px;
+	left: 0;
+}
